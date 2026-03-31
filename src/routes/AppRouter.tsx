@@ -7,6 +7,8 @@ import { ContactPage } from "../pages/ContactPage";
 import { BookPage } from "../pages/BookPage";
 import { TestimonialsPage } from "../pages/TestimonialsPage";
 import { SpeechBookingPage } from "../pages/SpeechBookingPage";
+import { PrivacyPolicyPage } from "../pages/PrivacyPolicyPage";
+import { TermsOfServicePage } from "../pages/TermsOfServicePage";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +22,8 @@ const router = createBrowserRouter([
       { path: "book", element: <BookPage /> },
       { path: "testimonials", element: <TestimonialsPage /> },
       { path: "speech-booking", element: <SpeechBookingPage /> },
+      { path: "privacy-policy", element: <PrivacyPolicyPage /> },
+      { path: "terms-of-service", element: <TermsOfServicePage /> },
     ],
   },
 ]);
